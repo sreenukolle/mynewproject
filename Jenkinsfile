@@ -4,7 +4,7 @@ properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKe
 node {
    /* 
     stage('Checkout') { 
-   git branch: 'development', credentialsId: '21311c83-a7a7-4316-8a19-b5b828aaf1a9', url: ' https://github.com/mohansoftwares/maven-web-application.git'
+   git branch: 'development', credentialsId: '7eae45e3-b94b-46b4-b754-5bffe4afd2fb', url: ' https://github.com/mohansoftwares/maven-web-application.git'
 
    }
  */
